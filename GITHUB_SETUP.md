@@ -6,24 +6,29 @@
 - Acesse: https://github.com/new
 - Nome sugerido: `birthday-history-app`
 - Descrição: `Homepage showing famous birthdays and historical events for any date`
-- NÃO marque "Initialize with README"
+- **NÃO** marque "Initialize with README"
 
-### 2. Comandos para Executar no Terminal
+### 2. COMANDOS PRONTOS PARA USAR:
 
-Substitua `SEU_USUARIO` e `NOME_DO_REPOSITORIO` pelos valores corretos:
+**Copie e cole estes comandos no terminal do Emergent** (substitua pela sua URL do GitHub):
 
 ```bash
-# 1. Adicionar o remote do GitHub
-git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+# Passo 1: Adicionar o remote do GitHub (SUBSTITUA PELA SUA URL)
+git remote add origin https://github.com/SEU_USUARIO/birthday-history-app.git
 
-# 2. Verificar se foi adicionado
+# Passo 2: Verificar se foi adicionado
 git remote -v
 
-# 3. Fazer commit das mudanças (se houver)
-git add .
-git commit -m "feat: Add birthday and historical events homepage with Wikipedia integration"
+# Passo 3: Fazer push para o GitHub
+git push -u origin main
+```
 
-# 4. Fazer push para o GitHub
+### 3. Exemplo Real:
+Se sua URL for `https://github.com/joao123/birthday-app.git`:
+
+```bash
+git remote add origin https://github.com/joao123/birthday-app.git
+git remote -v
 git push -u origin main
 ```
 
